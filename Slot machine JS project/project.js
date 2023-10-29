@@ -6,8 +6,8 @@
 //6. give user their winnings
 //7. play again
 
-function deposit () {
+const prompt = require("prompt-sync")();
 
+const deposit = () => { 
+const depositAmount = prompt ("Enter a deposit Amount")
 }
-
-deposit()
